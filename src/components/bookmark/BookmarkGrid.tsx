@@ -267,7 +267,7 @@ export function BookmarkGrid({
       <div className="px-6 space-y-6">
         {/* 搜索栏骨架屏 - 添加条件渲染 */}
         {enableSearch && (
-          <div className="flex justify-center mt-4 mb-12">
+          <div className="flex justify-center mt-12 mb-12">
             <Skeleton className="h-12 w-[600px] rounded-full" />
           </div>
         )}

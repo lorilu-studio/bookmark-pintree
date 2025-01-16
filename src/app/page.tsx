@@ -121,11 +121,11 @@ function SearchParamsComponent() {
                 onFolderSelect={handleFolderSelect}
               />
               <div className="flex flex-1 flex-col space-y-8">
-                <Header
+                {/* <Header
                   selectedCollectionId={selectedCollectionId}
                   currentFolderId={currentFolderId}
                   onBookmarkAdded={refreshData}
-                />
+                /> */}
                 <div className="flex-1 overflow-y-auto">
                   <BookmarkGrid
                     key={`${selectedCollectionId}-${currentFolderId}`}
@@ -139,6 +139,7 @@ function SearchParamsComponent() {
                     refreshTrigger={refreshTrigger}
                   />
                 </div>
+                {/* <Footer /> */}
               </div>
               <BackToTop />
             </>

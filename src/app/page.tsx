@@ -139,7 +139,6 @@ function SearchParamsComponent() {
                     refreshTrigger={refreshTrigger}
                   />
                 </div>
-                <Footer />
               </div>
               <BackToTop />
             </>
